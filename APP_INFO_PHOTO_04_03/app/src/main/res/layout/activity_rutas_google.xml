@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="@font/primera"
+        android:text="- RUTAS FOTOS -"
+        android:textColor="@color/home"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="NotSibling" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="250dp"
+        android:layout_height="397dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+
+        <Button
+            android:id="@+id/btnGranada"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#1B0F0F"
+            android:text="GRANADA"
+            android:textColor="#170B0B"
+            android:textStyle="bold"
+            app:rippleColor="#221B1B" />
+
+        <Button
+            android:id="@+id/btnAlmeria"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="ALMERÍA"
+            android:textAlignment="center"
+            android:textColor="#170E0E"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMalaga"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="MALAGA"
+            android:textAlignment="center"
+            android:textColor="#170E0E"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnJaen"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="JAÉN"
+            android:textColor="#130C0C"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSevilla"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="SEVILLA"
+            android:textColor="#150909"
+            android:textStyle="bold"
+            app:rippleColor="#0E0606" />
+
+        <Button
+            android:id="@+id/btnCadiz"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="CADIZ"
+            android:textColor="#150909"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/huelva"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="HUELVA"
+            android:textColor="#170D0D"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnCordoba"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="CORDOBA"
+            android:textAlignment="center"
+            android:textColor="#170E0E"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
