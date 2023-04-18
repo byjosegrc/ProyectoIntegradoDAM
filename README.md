@@ -25,8 +25,8 @@
 ### En reglas de firebase storage: 
 #### rules_version = '2'; service firebase.storage { match /b/{bucket}/o { match /{allPaths=**} { allow read, write; } } }
 
-Todas estas reglas son públicas para poner utilizarla sin preocupaciones, en caso de querer sacarla a producción deberán ser cambiadas.
-
+#### Todas estas reglas son públicas para poner utilizarla sin preocupaciones, en caso de querer sacarla a producción deberán ser cambiadas.
+<br>
 ## Borra el archivo app -> Google-services.json
 
 ## Después, en nuestro proyecto ya creado deberemos ir a Tools -> Firebase y sincronizamos con Authentication, Realtime Database y Cloud storage for Firebase.
