@@ -33,7 +33,7 @@
 
 ### 6 Una vez hecho ejecutamos en el gradle el signingreport.
 
-### 7 Y copiamos la clave SHA1.
+### 7 copiamos la clave SHA1.
 <br>
 
 ### 8 De vuelta en firebase vamos a configuración del proyecto.
