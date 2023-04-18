@@ -20,10 +20,10 @@
 ### 3. Tras esto configurar las reglas de Realtime y Storage en firebase
 
 #### 3.1 En reglas de realtime firebase:
-#### read": "auth.uid!=null" y ".write": "auth.uid!=null"
+#### -> read": "auth.uid!=null" y ".write": "auth.uid!=null"
 
 #### 3.2 En reglas de firebase storage: 
-#### rules_version = '2'; service firebase.storage { match /b/{bucket}/o { match /{allPaths=**} { allow read, write; } } }
+#### -> rules_version = '2'; service firebase.storage { match /b/{bucket}/o { match /{allPaths=**} { allow read, write; } } }
 
 #### "Todas estas reglas son públicas para poner utilizarla sin preocupaciones, en caso de querer sacarla a producción deberán ser cambiadas"
 
