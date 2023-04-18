@@ -26,7 +26,15 @@
 #### -> read": "auth.uid!=null" y ".write": "auth.uid!=null"
 
 #### 3.2 En reglas de firebase storage: 
-#### -> rules_version = '2'; service firebase.storage { match /b/{bucket}/o { match /{allPaths=**} { allow read, write; } } }
+#### -> rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if
+          request.time < timestamp.date(2024, 6, 20);
+    }
+  }
+}
 
 <br>
 
