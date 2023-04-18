@@ -49,6 +49,12 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b>  LENGUAJES Y TEGNOLOGIAS USADAS</b>
+### TEGNOLOGIAS:
+#### ANDROID STUDIO -> PARA DESAROLLAR LA APP EN CODIGO USANDO KOTLIN COMO LENGUAJE PRINCIPAL
+#### FIREBASE -> PARA LA AUTENTICACIÓN DE GOOGLE PARA ACCEDER A LA APP Y TAMBIEN EL ALOJAMIENTO DE LAS BASE DE DATOS DE REALTIME Y STORAGE
 <br>
 
-Proyecto Integrado creado por José Manuel Garcia Travé
+### LEGUAJE DE PROGRAMACION:
+#### KOTLIN
+<br>
+## Proyecto Integrado creado por José Manuel Garcia Travé
